@@ -10,7 +10,7 @@ function showResult() {
     };
 
     if (students[roll]) {
-        const status = students[roll].marks >= 8 ? "Congratulations!! Pass...." : "Fail";
+        const status = students[roll].marks >= 8 ? "Pass" : "Fail";
         const badge = status === "Pass" ? "success" : "danger";
 
         resultDiv.innerHTML = `
