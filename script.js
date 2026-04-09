@@ -3,15 +3,17 @@ function showResult() {
     const resultDiv = document.getElementById("result");
 
     const students = {
-
-	58172: {nm:"F.Y.B.Sc. (Animation)", name: "RAHANE ISHWARI GOKUL", marks: 19}
-		
-	
+    58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 18},
+	58172: {nm:"F.Y.B.Sc. (Animation)", name: "RAHANE   GOKUL", marks: 19},
+	 58173: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH  ", marks: 7},
+	58174: {nm:"F.Y.B.Sc. (Animation)", name: "  ISHWARI GOKUL", marks: 19},	
+	 58175: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE    ", marks: 18},
+	58176: {nm:"F.Y.B.Sc. (Animation)", name: "  ISHWARI  ", marks: 19},
 	
     };
 
     if (students[roll]) {
-        const status = students[roll].marks >= 50 ? "Pass" : "Fail";
+        const status = students[roll].marks >= 8 ? "Pass" : "Fail";
         const badge = status === "Pass" ? "success" : "danger";
 
         resultDiv.innerHTML = `
