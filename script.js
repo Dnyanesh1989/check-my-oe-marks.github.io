@@ -3,8 +3,8 @@ function showResult() {
     const resultDiv = document.getElementById("result");
 
     const students = {
-    58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 18},
-	58172: {nm:"F.Y.B.Sc. (Animation)", name: "RAHANE ISHWARI GOKUL", marks: 19},
+
+	58172: {nm:"F.Y.B.Sc. (Animation)", name: "RAHANE ISHWARI GOKUL", marks: 19}
 		
 	
 	
