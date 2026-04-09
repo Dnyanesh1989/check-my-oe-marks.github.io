@@ -1,25 +1,29 @@
-// Sample student data (replace with your actual data)
-const students = [
-    { roll: 59887, name: "CHAKOR SHREYA RAMESH", results: { Maths: "--",} },
-    { roll: 59349, name: "DINGAR KHUSHI ANIL", results: { Maths: 11} },
-    { roll: 103, name: "Charlie", results: { Maths: 85, Science: 91, English: 89 } }
-];
-
 function showResult() {
-    const rollInput = document.getElementById('rollInput').value;
-    const resultDiv = document.getElementById('result');
+    const roll = document.getElementById("rollInput").value;
+    const resultDiv = document.getElementById("result");
 
-    const student = students.find(s => s.roll == rollInput); // Find student by roll number
+    const students = {
+       101: {nm:"FYBA", name: "Rahul", marks: 85}
+		 
+		
+		
+		
+         
+    };
 
-    if (student) {
-        let resultHTML = `<h3>${student.name} - Roll Number: ${student.roll}</h3>`;
-        resultHTML += "<p>Results:</p><ul>";
-        for (const subject in student.results) {
-            resultHTML += `<li>${subject}: ${student.results[subject]}</li>`;
-        }
-        resultHTML += "</ul>";
-        resultDiv.innerHTML = resultHTML;
+    if (students[roll]) {
+        const status = students[roll].marks >= 50 ? "Pass" : "Fail";
+        const badge = status === "Pass" ? "success" : "danger";
+
+        resultDiv.innerHTML = `
+            <div class="alert alert-info">
+			<h5>Class: ${students[roll].nm}</h5>
+                <h5>Name: ${students[roll].name}</h5>
+                <p>Marks: <strong>${students[roll].marks}</strong></p>
+                <span class="badge bg-${badge}">${status}</span>
+            </div>
+        `;
     } else {
-        resultDiv.innerHTML = "<p>No student found with that roll number.</p>";
+        resultDiv.innerHTML = `<div class="alert alert-danger">Result not found!</div>`;
     }
 }
