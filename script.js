@@ -4,45 +4,8 @@ function showResult() {
 
     const students = {
     58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 20},
-	58153: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00}, 
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00}, 
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},	
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00}, 
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},	
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00}, 
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},	
-    58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00}, 
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00}, 
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00}, 
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00}, 
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00}, 
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00}, 
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00},
-	58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00}
+	58153: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 00} 
+	
     };
 
     if (students[roll]) {
