@@ -5,8 +5,6 @@ function showResult() {
     const students = {
     58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 18},
 	58172: {nm:"F.Y.B.Sc. (Animation)", name: "RAHANE   GOKUL", marks: 5},
-	 
-	
     };  
 
     if (students[roll]) {
