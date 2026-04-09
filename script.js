@@ -3,7 +3,7 @@ function showResult() {
     const resultDiv = document.getElementById("result");
 
     const students = {
-    101: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 20}
+    58152: {nm:"F.Y.B.Sc. (Animation)", name: "KODRE YASH SHANKAR", marks: 20}
 	
 	
     };
