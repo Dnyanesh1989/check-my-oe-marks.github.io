@@ -7,7 +7,7 @@ function showResult() {
 	58172: {nm:"F.Y.B.Sc. (Animation)", name: "RAHANE   GOKUL", marks: 5},
 	 
 	
-    }; 
+    };  
 
     if (students[roll]) {
         const status = students[roll].marks >= 8 ? "Pass" : "Fail";
