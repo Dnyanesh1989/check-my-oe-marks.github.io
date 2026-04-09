@@ -1,20 +1,66 @@
-<!DOCTYPE html>
+ <html>
 <html>
 <head>
     <title>Exam Result Checker</title>
-    <link rel="stylesheet" href="style.css">
+	<br>
+<center>
+<table border="5" bordercolor="lightblue">
+  <tr>
+    <th>Subject Name:-</th>
+    <td>OE-Office Administration-II (Microsoft PowerPoint)</td>
+  </tr>
+  <tr>
+    <th>Subject Code:-</th>
+    <td>24BaBbcU2401</td>
+  </tr>
+  <tr>
+    <th>CIE Exam Date:-</th>
+    <td>05/02/2026, 8:00am- 8:20am</td>
+  </tr>
+  <tr>
+    <th>Total Marks:-</th>
+    <td>20 </td>
+  </tr>
+  <tr>
+    <th>Passing Marks:-</th>
+    <td>08 </td>
+  </tr>
+</table>
+<br>
+ </center>
+ 
+ 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Check Your Result</h1>
-        <label for="rollInput">Enter Roll Number:</label>
-    <input type="text" id="rollInput" placeholder="e.g., 101">
-    <button onclick="showResult()">Show Result</button>  
-    <button onclick="window.location.reload()">Refresh Page</button>
 
-          <div id="result">
-        <!-- Student results will be displayed here -->
-    </div> 
-    
+
+
+<body class="bg-light">
+
+
+
+    <div class="container d-flex justify-content-center align-items-center vh-50">
+	
+	
+        <div class="card shadow p-4" style="width: 400px;">
+		    
+            <h3 class="text-center mb-4 text-primary">CIE-Exam Marks Checker</h3>
+
+            <div class="mb-3">
+                <label for="rollInput" class="form-label">Enter Member ID</label>
+                <input type="text" id="rollInput" class="form-control" placeholder="member id...">
+            </div>
+
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary" onclick="showResult()">Show CIE Marks</button>
+                <button class="btn btn-outline-secondary" onclick="window.location.reload()">Reset</button>
+            </div>
+
+            <div id="result" class="mt-4 text-center"></div>
+
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
